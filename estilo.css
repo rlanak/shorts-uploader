@@ -2,3 +2,6 @@
 @media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#eee;--muted:#aaa;--accent:#45d93c}}
 body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg);max-width:720px;margin:0 auto;padding:32px 16px;line-height:1.6}
 h1{font-size:26px}h2{font-size:19px;margin-top:28px}p,li{color:var(--muted)}a{color:var(--accent)}
+.yt{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--fg);border:1px solid #8884;border-radius:8px;padding:6px 12px}
+.ytlogo{background:#ff0000;color:#fff;border-radius:6px;padding:0 9px;font-size:13px;line-height:22px}
+nav{margin-top:32px}

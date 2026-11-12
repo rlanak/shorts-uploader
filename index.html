@@ -1,7 +1,14 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Shorts Uploader</title><link rel="stylesheet" href="estilo.css"></head><body>
+<p class="yt"><span class="ytlogo">▶</span> Uses YouTube API Services</p>
 <h1>Shorts Uploader</h1>
-<p>Ferramenta pessoal usada para enviar e agendar os vídeos curtos (YouTube Shorts) de um único canal de curiosidades, administrado pelo próprio dono da ferramenta.</p>
-<p>Ela usa a YouTube Data API apenas para enviar vídeos ao canal do próprio dono e consultar o status desses envios. Não é oferecida a outros usuários.</p>
-<p><a href="privacidade.html">Política de privacidade</a></p>
+<p>Shorts Uploader is a private, single-user desktop tool that uploads and schedules the Shorts of one YouTube channel, <strong>Ninguém Te Contou</strong>, operated by the tool's owner. It is not offered or distributed to anyone else.</p>
+<h2>How it works</h2>
+<ol>
+<li>The owner produces each Short and reviews it on a local review page.</li>
+<li>Only after manual approval, the tool uploads the video to the owner's channel through the YouTube Data API (videos.insert), as private with a scheduled publish time.</li>
+<li>It reads the authorized channel's basic info (channels.list) to confirm the right channel is connected.</li>
+</ol>
+<p>By using this tool you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+<nav><a href="privacidade.html">Privacy Policy</a> · <a href="termos.html">Terms of Use</a></nav>
 </body></html>
